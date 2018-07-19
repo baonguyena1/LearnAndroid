@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LearnMath</string>
+    <string name="text_learnmath">Learning Math</string>
+    <string name="edit_firstNumber">Số thứ 1</string>
+    <string name="edit_secondNumber">Số thứ 2</string>
+    <string name="button_add">+</string>
+    <string name="button_subtraction">-</string>
+    <string name="button_multiplication">*</string>
+    <string name="button_division">/</string>
+</resources>

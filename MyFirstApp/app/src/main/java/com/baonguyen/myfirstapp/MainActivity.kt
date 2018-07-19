@@ -3,7 +3,6 @@ package com.baonguyen.myfirstapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.EditText
 
@@ -19,7 +18,10 @@ class MainActivity : AppCompatActivity() {
     fun sendMessage(view: View) {
         val editText = findViewById<EditText>(R.id.editText)
         val message = editText.text.toString()
-        val intent = Intent(this, DisplayMessageActivity::class.java).apply {
+        val intent = Intent(
+                this,
+                DisplayMessageActivity::class.java
+        ).apply {
             putExtra(EXTRA_MESSAGE, message)
         }
         startActivity(intent)
